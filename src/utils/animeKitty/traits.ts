@@ -1,0 +1,40 @@
+export const KITTY_COLORS = {
+  base: [
+    { id: 'white', name: 'Snow White', hex: '#FFFFFF' },
+    { id: 'cream', name: 'Cream Puff', hex: '#FFF4E0' },
+    { id: 'ginger', name: 'Ginger', hex: '#FF9D5C' },
+    { id: 'black', name: 'Midnight', hex: '#2D3436' },
+    { id: 'grey', name: 'Misty Grey', hex: '#B8C5D6' },
+    { id: 'brown', name: 'Chocolate', hex: '#8B4513' },
+  ],
+  eyes: [
+    { id: 'blue', name: 'Ocean Blue', hex: '#4834d4' },
+    { id: 'green', name: 'Emerald', hex: '#2ecc71' },
+    { id: 'gold', name: 'Golden', hex: '#f1c40f' },
+    { id: 'purple', name: 'Mystic Purple', hex: '#9b59b6' },
+    { id: 'pink', name: 'Rose Pink', hex: '#fd79a8' },
+  ],
+  expressions: [
+    'happy',
+    'sleepy',
+    'excited',
+    'curious',
+    'determined',
+    'mischievous',
+  ],
+  accessories: [
+    'bow',
+    'glasses',
+    'hat',
+    'scarf',
+    'bell',
+    'ribbon',
+  ],
+  specialFeatures: [
+    'sparkles',
+    'wings',
+    'magic-aura',
+    'cyber-parts',
+    'galaxy-pattern',
+  ],
+} as const;
